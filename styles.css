@@ -6,48 +6,18 @@ body {
 	background:#ebebeb;
 	color: #6B6767;
 	font: 15px Helvetica, sans-serif;
-}
-.info {
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-	color: #948f8f;
-}
-#objective {
-	font-size: 21px;
-    line-height: 25px;
-    margin-bottom: 60px;
-    color: #848892;
-    text-align: justify;
-}
-#wrapper {
-    width: 784px;
-    border: 1px solid #aeb9ce;
-    background: url("bg-crosshatch.gif") repeat scroll 0% 0% #c8cfdc;
-	margin: 40px auto 20px;
-} 
+	line-height: 22px;
 
-#wrapper, #main {
-    border-radius: 5px;
 }
-#main {
-	width:700px;
-	border:1px solid #c8cfdc;
-	background:#fff url("header-line.jpg") no-repeat 2px 2px;
-	margin:40px auto;
-}
-.shadow {box-shadow: 0px 0px 2px #ababab;}
-
 h1 {
 	font-size: 70px;
 	line-height: 70px;
 	margin-bottom: 0;
 	font-weight: bold;
 	text-shadow: 0px 0px 2px #999;
+
 }
-.colomn_wrap {
-	padding: 10px 35px 35px 35px;
-}
+
 h2 {
 	font-size: 35px;
 	line-height: 40px;
@@ -72,6 +42,42 @@ h4 {
 	color: #948f8f;
 	clear: both;
 }
+.info {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #948f8f;
+}
+#objective {
+	font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 60px;
+    color: #848892;
+    text-align: justify;
+}
+#wrapper {
+    width: 784px;
+    border: 1px solid #aeb9ce;
+    background: url("bg-crosshatch.gif") repeat scroll 0% 0% #c8cfdc;
+	margin: 40px auto 20px;
+} 
+
+#wrapper, main {
+    border-radius: 5px;
+}
+main {
+	box-sizing: padding-box;
+	width:700px;
+	border:1px solid #c8cfdc;
+	background:#fff url("header-line.jpg") no-repeat 2px 2px;
+	margin:40px auto;
+	padding: 10px 35px 35px 35px;
+	
+	
+}
+.shadow {box-shadow: 0px 0px 2px #ababab;}
+
+
 .date {
 	margin-top: 10px;
 	float: right;
@@ -79,5 +85,27 @@ h4 {
 	line-height: 20px;
 	margin-bottom: 5px;
 	font-weight: bold;
+
+}
+
+.social-icons li {
+	display: inline;
+	padding: 0 5 0 0px;
+	margin: 0;
+
+}
+.social-icons {
+	margin: 5px 0 0 0;
+	padding: 0;
+
+}
+li a {
+	text-decoration: none;
+	color: #73939E;
+	font-size: 16px;
+	font-weight: bold;
+}
+li a:hover {
+	color: #396473;
 
 }
