@@ -66,8 +66,8 @@ h4 {
     border-radius: 5px;
 }
 main {
-	box-sizing: padding-box;
-	width:700px;
+	
+	width:630px;
 	border:1px solid #c8cfdc;
 	background:#fff url("header-line.jpg") no-repeat 2px 2px;
 	margin:40px auto;
